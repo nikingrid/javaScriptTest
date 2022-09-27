@@ -5,15 +5,38 @@
     <title>Test Exercise 1</title>
     
     <!-- JAVASCRIPT -->
-	<script src="dasilva_nicole_test_javascript_algo_ex1.js"></script>
+	<!--<script src="dasilva_nicole_test_javascript_algo_ex1.js"></script>-->
 	
 </head>
 <body>
-   
-   <table id="">
 
-   </table>
-   
+
+<input type="button" onclick="crearTabla()" value="Tabla">
+
+<table id="tablaArray"></table>
+
+<script>
     
+    var array_letras = new Array(9);
+    array[0]=['a b c'];
+    array[1]=['e f g'];
+    array[2]=['h i j'];
+    array[3]=['k l m'];
+    
+    function crearTabla(){ 
+    
+    for (let i = 0; i< array_letras.length; i++){
+        let filaActual = document.getElementById('tablaArray').insertRow(i);
+
+    
+    for (let j=0; j< array_letras.length; j++){
+        let celda = filaActual.insertCell(j);
+        
+        celda.innerHTML = (1);
+    }
+}
+    }
+    </script>
+
 </body>
 </html>

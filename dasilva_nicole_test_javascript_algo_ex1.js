@@ -13,3 +13,4 @@ function crearTabla(){
         celda.innerHTML = `Fila: ${i} Columna: ${j} `;
     }
 }
+

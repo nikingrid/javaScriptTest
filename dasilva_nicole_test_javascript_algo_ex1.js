@@ -19,6 +19,7 @@ window.addEventListener("load", function load(){
         //LOOP para la tabla
         for (var i=0; i< array_number.length; i++){
             html+=`<tr><td>${(array_number[i])}</tr></td>`;
+            console.log(html);
         }
         
         html += "</tr></table>";
@@ -26,4 +27,7 @@ window.addEventListener("load", function load(){
         //Meterlo en el contenedor de div 
         document.getElementById("tabla").innerHTML = html;
         
-    });
+    })
+
+
+        

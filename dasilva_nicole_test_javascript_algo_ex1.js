@@ -1,3 +1,5 @@
+//Crear tabla a partir del Array
+
 window.addEventListener("load", function load(){
                             
        //ARRAY
@@ -30,4 +32,16 @@ window.addEventListener("load", function load(){
     })
 
 
-        
+//Validar tabla
+
+document.getElementById("tabla");
+var numeros = [0-9];
+
+    function validar (){
+        if(HTMLTableDataCellElement===numeros){
+           return console.log(true);
+           } else {
+               return console.log(false);
+           }
+           
+    }
